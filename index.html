@@ -9,13 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Tourist sights</title>
 </head>
 
 <body>
-    
+
     <div class="container">
         <header class="site-header">
             <div class="row flex-nowrap justify-content-between align-items-center">
@@ -30,58 +30,81 @@
                 </div>
             </div>
         </header>
+
         <main>
-            <div class="row pt-3">
+            <!-- スライド -->
+            <div class="carousel slide pt-4" data-interval=2000 data-ride="carousel" style="">
+                <ol class="carousel-indicators">
+                    <li data-target="#example-3" data-slide-to="0" class="active"></li>
+                    <li data-target="#example-3" data-slide-to="1"></li>
+                    <li data-target="#example-3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 h-50" src="images/1f773c6ac3ad09f9369b3fdd4e7ed603.jpeg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 h-50" src="images/390px-Sacred_Mount_Osorezan_20200601a_stitching9.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 h-50" src="images/490d80a2b6ee62260fc1d9eb885bebdc.jpeg"
+                            alt="Third slide">
+                    </div>
+                </div>
+            </div>
+            <!-- スライドここまで --> 
+
+            <div class="row pt-5">
                 <div class="col-6">
                     <div class="">
                         <img class="card-img-top" src="images/fujisan.jpg" alt="">
-                        <div class="card-body">
-                          <p class="card-text">富士山のやつ</p>
-                          <a href="#!" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-6">
                     <div class="">
                         <img class="card-img-top" src="images/390px-Sacred_Mount_Osorezan_20200601a_stitching9.jpg" alt="">
-                        <div class="card-body">
-                          <p class="card-text">恐れ山のやつ</p>
-                          <a href="mountain.html" class="btn btn-primary">詳細はこちら</a>
-                        </div>
-                      </div>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <p class="card-text py-2">富士山　と　恐山</p>
+                    <a href="mountain.html" class="btn btn-primary text-center px-4">詳細はこちら</a>
                 </div>
             </div>
 
-            <div class="row pt-3">
-                <div class="col-12">
+            <div class="row pt-4">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
                     <div class="">
                         <img class="card-img-top" src="images/58ab3216766f482f74942e828dcb5098.jpg" alt="">
-                        <div class="card-body">
-                          <p class="card-text">湖のやつ</p>
-                          <a href="#!" class="btn btn-primary">Go somewhere</a>
+                        <div class="card-body text-center">
+                            <p class="card-text">湖のやつ</p>
+                            <a href="masyu.html" class="btn btn-primary px-5">詳細はこちら</a>
                         </div>
-                      </div>
-                </div> 
+                    </div>
+                </div>
+                <div class="col-2">
+
+                </div>
             </div>
 
             <div class="row pt-3">
                 <div class="col-6">
                     <div class="">
-                        <img class="card-img-top" src="images/ginzan.jpeg" alt="">
-                        <div class="card-body">
-                          <p class="card-text">温泉のやつ</p>
-                          <a href="#!" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
+                        <img class="card-img-top" src="images/490d80a2b6ee62260fc1d9eb885bebdc.jpeg" alt="">
+                        
+                    </div>
                 </div>
                 <div class="col-6">
                     <div class="">
-                        <img class="card-img-top" src="images/390px-Sacred_Mount_Osorezan_20200601a_stitching9.jpg" alt="">
-                        <div class="card-body">
-                          <p class="card-text">温泉のやつ</p>
-                          <a href="mountain.html" class="btn btn-primary">詳細はこちら</a>
-                        </div>
-                      </div>
+                        <img class="card-img-top " src="images/390px-Sacred_Mount_Osorezan_20200601a_stitching9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <p class="card-text py-2">金閣寺　と　銀閣寺</p>
+                    <a href="temple.html" class="btn btn-primary text-center px-4">詳細はこちら</a>
                 </div>
             </div>
 
@@ -92,7 +115,7 @@
         <div class="bg-dark text-white pt-3 pb-2 text-center ">
             <p><small>&copy; 13HOMEPAGE</small></p>
         </div>
-        
+
     </footer>
 
     <!-- Optional JavaScript -->
