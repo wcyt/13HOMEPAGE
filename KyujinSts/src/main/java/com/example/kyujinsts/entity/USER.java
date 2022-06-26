@@ -18,8 +18,19 @@ public class USER {
     private String USER_changeTime;
     private String USER_changer;
     private String USER_deleteFlag;
+	public static String getUSER_NAME() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getUSER_mailAddress() {
+		// TODO Auto-generated method stub
+		return null;
+	}
   ;
-
+  public static String getUSER_PASSWORD() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 
 
